@@ -1,0 +1,25 @@
+h1 {
+  font-size: 40 px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  align-items: center;
+  font-feature-settings: "blwf";
+  border: 30px;
+  background-color: aqua;
+}
+.container {
+  text-align: center;
+  margin-top: 25px;
+}
+table {
+  margin: auto;
+}
+input {
+  font-size: 21px;
+  border: 2px solid blue;
+  border-radius: 2px;
+}
+show msg. {
+    color: #342BFA;
+    font-size: 50px;
+}

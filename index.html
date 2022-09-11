@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVEN ODD FUNCTION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Muhammad Ali</h1>
+
+ <h2 style="text-align: center; color: white; background-color: #FA2B6D"> JavaScript to find Odd or Even number! </h2>
+
+ <label> Enter Number </label> <br>
+ <input type="number" name="" id="evenOdd" onkeyup="isCheck()">
+ <span id="showMssg" style="color: #342BFA;">  </span>
+</br><br>
+
+<script>
+function isCheck(){
+ var num = document.getElementById('evenOdd').value;
+ // alert(num);
+ if((num%2) == 0){
+ document.getElementById('showMssg').innerHTML = "Hurray! Number "+num+"  is an even number";
+ }
+ else{
+ document.getElementById('showMssg').innerHTML = "Oo No! "+num+"  is not an even number";
+ }
+
+ if(num === ""){
+ document.getElementById('showMssg').innerHTML = "";
+ }
+}
+
+function isChecks(){
+ var num = document.getElementById('evenOdds').value;
+ // alert(num);
+ if((num%2) == 0){
+ document.getElementById('showMssgs').innerHTML = "Hurray! Number "+num+"  is an even number";
+ }
+ else{
+ document.getElementById('showMssgs').innerHTML = "Oo No! "+num+"  is not an even number";
+ }
+
+ if(num === ""){
+ document.getElementById('showMssgs').innerHTML = "";
+ }
+}
+ 
+</script>
+
+</body>
+</html>
